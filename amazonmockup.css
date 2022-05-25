@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+img {
+    display: flex;
+    margin:auto;
+    padding-bottom:5%;
+    padding:5%
+    
+}
+
+.Parent-class {
+    display: flex;
+    position: static;
+    flex-flow: column wrap;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:rgb(204, 204, 204);
+    width: 400px;
+    height: 320px;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+}
+.Child-class {
+    display: flex;
+    text-align: center;
+    padding-left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-left: 25%;
+    font-weight: 1;
+}
+input[type=text] {
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.sign-in {
+    color: gray;
+    font-size:smaller;
+}
+
+.Continue {
+    border-radius: 5px;
+    border-color:black;
+    background-image: linear-gradient(rgb(255, 203, 91),rgb(255, 157, 0));
+    width: 200px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.privacy {
+    font-size:10px;
+    font-weight:bold;
+    width:350px;
+    padding-left:25%;
+}
+span {
+    margin-left: 20px;
+}
+
+.box-bottom {
+    font-size:small;
+    font-weight:bolder;
+}
+
+hr {
+    color:rgb(255, 255, 255);
+}
+
+.Create {
+    border-radius: 5px;
+    border-color:black;
+    background-image: linear-gradient(rgb(246, 246, 246),rgb(211, 211, 211));
+    width: 300px;
+    padding: 2px;
+    margin-top: 5px;
+    font-weight:350;
+}
+.linetext1 {
+    padding-top:3%;
+    color:gray;
+    font-size:small;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+a {
+    color:rgb(0, 119, 255);
+    font-size:inherit;
+}
+
+p {
+    color:gray;
+    font-size:small;
+    font-family:Arial, Helvetica, sans-serif
+}
